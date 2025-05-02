@@ -42,7 +42,7 @@ try:
     inputs = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "input")))
 
     inputs[0].clear()
-    inputs[0].send_keys("RSSMRA75T90A562S")
+    inputs[0].send_keys("RSSORA75T90A562S")
     driver.execute_script("arguments[0].dispatchEvent(new Event('input', { bubbles: true }));", inputs[0])
     driver.execute_script("arguments[0].dispatchEvent(new Event('change', { bubbles: true }));", inputs[0])
 
